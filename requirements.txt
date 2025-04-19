@@ -1,2 +1,3 @@
-Flask==2.2.2
-requests==2.31.0
+git add requirements.txt
+git commit -m "Fix Werkzeug import error by pinning compatible versions"
+git push
