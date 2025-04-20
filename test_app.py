@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from app import app, fetch_info, PERSONAL_INFO_URL
+from app import flask_app as app, fetch_info, PERSONAL_INFO_URL
 
 class FlaskAppTestCase(unittest.TestCase):
     def setUp(self):
